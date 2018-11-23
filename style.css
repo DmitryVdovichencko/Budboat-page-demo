@@ -73,29 +73,12 @@
   clip-path: polygon(0 0, 100% 34%, 89% 65%, 0% 100%); }
 
 .lang {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row nowrap;
-  flex-flow: row nowrap;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
   text-transform: uppercase;
   width: 100%;
   text-align: right;
   padding: 5px 20px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 1.2em;
-  font-weight: 500; }
-  .lang .lang__link-active {
-    border-bottom: none; }
-
-.lang__link {
-  text-decoration: underline; }
+  font-size: 1.2em; }
 
 header {
   letter-spacing: 0.06em;
@@ -128,18 +111,9 @@ header {
   z-index: 4;
   left: 19%;
   max-width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center; }
   .schedules .caption {
     fon-size: 0.8em; }
@@ -148,15 +122,8 @@ header {
     color: #C7253A;
     font-weight: 500; }
   .schedules .schedules__header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
     color: #002F63;
@@ -165,15 +132,8 @@ header {
     text-transform: uppercase; }
     .schedules .schedules__header .schedules__month {
       font-size: 1.5em;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
       align-items: center; }
     .schedules .schedules__header .schedules__period {
       display: inline-block;
@@ -185,43 +145,19 @@ header {
     .schedules .schedules__header div {
       padding: 5px 20px; }
   .schedules .schedules__content-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row nowrap;
     flex-flow: row nowrap; }
   .schedules .schedules__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     padding: 0px 2%; }
     .schedules .schedules__content .schedules__item {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
       flex-flow: column nowrap; }
       .schedules .schedules__content .schedules__item .schedules__caption {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
         justify-content: flex-start;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
         align-items: flex-start;
         padding: 0px 20px;
         margin: 5px 0px; }
@@ -236,18 +172,10 @@ header {
         .schedules .schedules__content .schedules__item .schedules__descr div {
           padding-bottom: 5px; }
       .schedules .schedules__content .schedules__item .one-descr {
-        -webkit-box-sizing: border-box;
         box-sizing: border-box;
         height: 92%;
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-flow: column nowrap;
         flex-flow: column nowrap;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center; }
 
 .accept {
@@ -264,16 +192,10 @@ header {
   font-weight: 500; }
 
 .schedules__next, .schedules__prev {
+  height: 100%;
   padding: 0px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center; }
   .schedules__next img, .schedules__prev img {
     display: block;
@@ -298,56 +220,28 @@ header {
     .schedules .schedules__header .schedules__period {
       margin: 0px 5px; }
     .schedules .schedules__content {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
       flex-flow: column nowrap; } }
 
 .order-form {
   min-height: 32%;
   width: 75%;
   max-width: 64vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
   margin: auto;
   margin: 8% auto 10px 0px; }
   .order-form .clients {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    -ms-flex-flow: flex-start;
     flex-flow: flex-start; }
   .order-form .client-form__wrapper {
     max-width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap; }
     .order-form .client-form__wrapper .client-form__container {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
       flex-flow: column nowrap; }
       .order-form .client-form__wrapper .client-form__container .text-tip {
         font-size: 0.7em;
@@ -360,7 +254,6 @@ header {
     width: 50%;
     margin-left: 5px;
     padding: 0px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin: auto;
     margin-top: 0px;
@@ -368,19 +261,10 @@ header {
     .order-form .second .add-quest {
       width: 100%;
       height: 100%;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       margin-top: 5px;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
       flex-flow: column nowrap;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
       justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
       align-items: center;
       background: rgba(0, 47, 99, 0.2); }
     .order-form .second .agree {
@@ -402,8 +286,7 @@ header {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
-    color: #002F63;
-    border: solid 1px rgba(0, 47, 99, 0.2); }
+    color: #002F63; }
   .order-form ::-webkit-input-placeholder {
     /* Chrome и Safari */
     color: #002F63;
@@ -452,24 +335,15 @@ header {
   background-size: contain; }
 
 .agree {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 50%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   font-size: 0.7em; }
   .agree span {
     margin-left: 10px;
-    width: 35%; }
+    width: 40%; }
   .agree .accept {
     width: 47%;
     margin: auto;
@@ -490,12 +364,6 @@ header {
   margin-top: 5px;
   text-align: center; }
 
-@media (max-width: 1366px) {
-  .order-form input {
-    height: 4vh; }
-  .order-form .second {
-    height: 63%; } }
-
 @media (max-width: 640px) {
   .content .order-form {
     max-width: none;
@@ -512,9 +380,6 @@ header {
   .content .agree {
     width: 100%;
     margin: auto;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
     flex-flow: row wrap; }
     .content .agree span {
       width: 80%;
@@ -524,7 +389,6 @@ header {
   .content .checkbox {
     width: 20px;
     height: 20px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box; } }
 
 html, body {
@@ -533,13 +397,10 @@ html, body {
   height: 100%; }
 
 body {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 100vh;
   margin: 0px;
   padding: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-family: 'Oswald', sans-serif;
   color: white; }
@@ -556,37 +417,19 @@ body {
   position: 0px 0px;
   width: 100%;
   min-height: 100vh;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
   align-items: flex-start; }
 
 .main-container {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   min-height: 80vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   padding-left: 22%; }
 
@@ -609,7 +452,7 @@ body {
   height: 100vh;
   background: #C7253A;
   z-index: 100; }
-  .popup-age #enter {
+  .popup-age a {
     display: block;
     width: 20%;
     padding: 0px; }
@@ -620,45 +463,25 @@ body {
     height: 90%;
     margin: auto;
     padding: 0px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
     justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center; }
     .popup-age .container-age .title {
       text-transform: uppercase;
       font-weight: 500;
       padding: 10px 0px;
-      margin-top: 5%; }
-      .popup-age .container-age .title p {
-        padding-left: 1.5em; }
+      margin-top: 15%; }
       .popup-age .container-age .title h1 {
         font-size: 4.5em;
         padding: 0px;
-        margin: 0px auto;
-        margin-bottom: 10vh; }
+        margin: 0px auto; }
     .popup-age .container-age .form-age {
       width: 60%;
       margin-top: 0px;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
       justify-content: center; }
       .popup-age .container-age .form-age select {
         background: transparent;
@@ -673,10 +496,6 @@ body {
         min-width: 80px;
         height: 50px;
         background: white;
-        background-image: url("img/sel.png");
-        background-position: right center;
-        background-position-x: 90%;
-        background-repeat: no-repeat;
         margin: 10px 10px;
         color: rgba(0, 47, 99, 0.7);
         padding: 0px 10px;
@@ -688,7 +507,6 @@ body {
 
 footer {
   font-family: 'Roboto', sans-serif;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   text-align: left;
@@ -702,15 +520,8 @@ footer {
 
 @media (max-width: 640px) {
   .content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column nowrap;
     flex-flow: column nowrap;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
     justify-content: flex-start;
     max-height: none;
     height: 100%;
@@ -722,8 +533,6 @@ footer {
     .content .order-form {
       position: relative;
       margin-top: 0%;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex; }
       .content .order-form .clients .client-form {
         max-width: 100%;
