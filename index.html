@@ -11,7 +11,7 @@
 </head>
 <body>
 <div id="age_ver" class="popup-age">
-	<div class="lang">rus/eng</div>
+	<div class="lang"><a href="" class="lang__link-active">rus</a>/<a href="" class="lang__link">eng</a></div>
 	<div class="container-age">
     	<div class="title">
 			<h1>#Budboat</h1>
@@ -46,7 +46,7 @@
 	
 
     <div class="content">
-    	<div class="lang">rus/eng</div>
+    	<div class="lang"><a href="" class="lang__link-active">rus</a>/<a href="" class="lang__link">eng</a></div>
     	<div class="main-container">
     		<header>
     			<h1>#Budboat</h1>
@@ -457,12 +457,10 @@
 
 
     }
-    $( "select" ).change(function () {
-    	checkAge($("#day"), $("#month"), $("#year"));
-    });
+
     $(".schedules__descr").click(function( event ) {
   		let target = $(event.target);
-  		console.log(this);
+  		
   		$(".schedules__descr").removeClass("selected", "disable");
   		$(this).addClass("selected");
   		selectDate();
@@ -474,7 +472,7 @@
 
     function selectDate(){
 
-    	console.log($( ".schedules__descr" ));
+    	
     	$(".schedules__descr").addClass("disable");
     	$(".selected").removeClass("disable");
   
@@ -511,8 +509,11 @@
     	
 
     }
-    //check age function
-    //filling selects
+    $( "select" ).change(function () {
+    	    let countDays=new Date(+$("#year").val(),(+$("#month").val()+1),0).getDate();
+     		fillingDays($("#day"),countDays);
+    });
+   
 
 </script>
 </body>
